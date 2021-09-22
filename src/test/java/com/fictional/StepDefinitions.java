@@ -9,6 +9,7 @@ import io.restassured.specification.RequestSpecification;
 import static io.restassured.RestAssured.given;
 
 public class StepDefinitions {
+    // https://api.agify.io/?name=Rafal
     private String apiUrl = "https://api.agify.io";
     private RequestSpecification request;
     private Response response;
